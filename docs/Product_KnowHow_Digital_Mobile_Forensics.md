@@ -407,12 +407,33 @@ Dùng làm **backlog nghiên cứu** và **bộ test thực tế**:
 
 ## 12. Next steps đề xuất cho đội sản phẩm
 
-- [ ] Chọn thị trường mục tiêu: Android-only / Android+iOS / mobile+IoT
-- [ ] Chốt schema Case–Image–Artifact–Action–Timeline (v1)
-- [ ] Lập danh mục parser pack P0 từ lab `Android10/` và `iOS/`
-- [ ] Dựng MVP workbench theo giai đoạn A
+- [x] Đào sâu PRD **Digital Disk Forensics** (ổ cứng / USB / thẻ nhớ / disk image) — xem bộ tài liệu bên dưới
+- [ ] Chọn thị trường mục tiêu mobile: Android-only / Android+iOS / mobile+IoT
+- [ ] Chốt schema Case–Image–Artifact–Action–Timeline (v1) dùng chung disk + mobile sau này
+- [ ] Lập danh mục parser pack P0 từ lab `Android10/` và `iOS/` (bước sau)
+- [ ] Dựng MVP workbench disk theo [`digital-forensics-product/08_MVP_Roadmap_and_Backlog.md`](digital-forensics-product/08_MVP_Roadmap_and_Backlog.md)
 - [ ] Gắn dataset lab vào pipeline kiểm thử tự động
-- [ ] Viết PRD chi tiết cho 5 tính năng P0 đầu tiên
+
+---
+
+## 13. Bộ PRD Digital Disk Forensics (đã tách riêng)
+
+Phần sản phẩm **trích xuất / phục hồi từ ổ cứng, thẻ nhớ, USB và disk image** được viết chi tiết tại:
+
+**[`docs/digital-forensics-product/00_README.md`](digital-forensics-product/00_README.md)**
+
+| File | Nội dung |
+|------|----------|
+| [01_Product_Overview](digital-forensics-product/01_Product_Overview.md) | Tầm nhìn, persona, phạm vi |
+| [02_Acquisition_and_Imaging](digital-forensics-product/02_Acquisition_and_Imaging.md) | Imaging, write-blocker, DD/E01 |
+| [03_Filesystem_and_Deleted_Recovery](digital-forensics-product/03_Filesystem_and_Deleted_Recovery.md) | NTFS/exFAT, phục hồi metadata |
+| [04_File_Carving_and_Signatures](digital-forensics-product/04_File_Carving_and_Signatures.md) | Carving & signature packs |
+| [05_Search_Timeline_and_Analysis](digital-forensics-product/05_Search_Timeline_and_Analysis.md) | Search, tag, timeline |
+| [06_Custody_Audit_and_Reporting](digital-forensics-product/06_Custody_Audit_and_Reporting.md) | Custody, audit, báo cáo |
+| [07_Data_Model_and_Architecture](digital-forensics-product/07_Data_Model_and_Architecture.md) | Schema & kiến trúc |
+| [08_MVP_Roadmap_and_Backlog](digital-forensics-product/08_MVP_Roadmap_and_Backlog.md) | Roadmap MVP |
+
+**Mobile Forensic** vẫn chỉ ở mức định hướng trong tài liệu này; PRD chi tiết mobile sẽ làm ở bước sau.
 
 ---
 
