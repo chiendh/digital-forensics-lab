@@ -416,24 +416,23 @@ Dùng làm **backlog nghiên cứu** và **bộ test thực tế**:
 
 ---
 
-## 13. Bộ PRD Digital Disk Forensics (đã tách riêng)
+## 13. Bộ tài liệu đã tách (Disk + Mobile + Academic)
 
-Phần sản phẩm **trích xuất / phục hồi từ ổ cứng, thẻ nhớ, USB và disk image** được viết chi tiết tại:
+Chỉ mục tổng: [`docs/README.md`](README.md)
 
-**[`docs/digital-forensics-product/00_README.md`](digital-forensics-product/00_README.md)**
+### App 1 — Disk / USB / thẻ nhớ / image
 
-| File | Nội dung |
-|------|----------|
-| [01_Product_Overview](digital-forensics-product/01_Product_Overview.md) | Tầm nhìn, persona, phạm vi |
-| [02_Acquisition_and_Imaging](digital-forensics-product/02_Acquisition_and_Imaging.md) | Imaging, write-blocker, DD/E01 |
-| [03_Filesystem_and_Deleted_Recovery](digital-forensics-product/03_Filesystem_and_Deleted_Recovery.md) | NTFS/exFAT, phục hồi metadata |
-| [04_File_Carving_and_Signatures](digital-forensics-product/04_File_Carving_and_Signatures.md) | Carving & signature packs |
-| [05_Search_Timeline_and_Analysis](digital-forensics-product/05_Search_Timeline_and_Analysis.md) | Search, tag, timeline |
-| [06_Custody_Audit_and_Reporting](digital-forensics-product/06_Custody_Audit_and_Reporting.md) | Custody, audit, báo cáo |
-| [07_Data_Model_and_Architecture](digital-forensics-product/07_Data_Model_and_Architecture.md) | Schema & kiến trúc |
-| [08_MVP_Roadmap_and_Backlog](digital-forensics-product/08_MVP_Roadmap_and_Backlog.md) | Roadmap MVP |
+[`digital-forensics-product/00_README.md`](digital-forensics-product/00_README.md) (modules 01–08).
 
-**Mobile Forensic** vẫn chỉ ở mức định hướng trong tài liệu này; PRD chi tiết mobile sẽ làm ở bước sau.
+### App 2 — Mobile / IoT companion
+
+[`mobile-forensics-product/00_README.md`](mobile-forensics-product/00_README.md) (modules 01–08: acquisition/trust, SQLite, Android, iOS, IoT, custody, roadmap/gaps).
+
+### Academic — charter, mapping lab→app, eval, STIX/PreDIE, catalog
+
+[`academic/00_README.md`](academic/00_README.md)
+
+Repo được định vị rõ: **nghiên cứu / đánh giá / tài liệu học thuật** phục vụ phát triển hai ứng dụng phục hồi dữ liệu — không phải mã nguồn thương mại.
 
 ---
 

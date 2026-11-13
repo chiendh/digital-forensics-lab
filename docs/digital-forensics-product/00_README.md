@@ -23,6 +23,9 @@
 
 ## Tài liệu liên quan trong repo
 
+- Chỉ mục docs: [`../README.md`](../README.md)
+- Academic charter & eval: [`../academic/00_README.md`](../academic/00_README.md)
+- App Mobile PRD: [`../mobile-forensics-product/00_README.md`](../mobile-forensics-product/00_README.md)
 - Tổng quan digital + mobile: [`../Product_KnowHow_Digital_Mobile_Forensics.md`](../Product_KnowHow_Digital_Mobile_Forensics.md)
 - Lab nền tảng (carving, Sleuth Kit, USB acquisition): `Basic_Computer_Skills_for_Forensics/`
 - Case disk lớn: `NIST_Data_Leakage_Case/`, `P2P_Leakage/`

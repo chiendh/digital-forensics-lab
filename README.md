@@ -14,6 +14,14 @@
 
 _To provide feedback or tell us how you use the course materials, please email wxu at ubalt dot edu. Your collaboration is sincerely valued._
 
+### Product-oriented research docs (this fork)
+
+Academic and PRD documentation that uses these labs to evaluate and design **two data extraction/recovery applications** (Disk + Mobile) lives under [`docs/`](docs/README.md):
+
+- [`docs/academic/`](docs/academic/00_README.md) — charter, lab→product mapping, evaluation, STIX/PreDIE, artifact catalog  
+- [`docs/digital-forensics-product/`](docs/digital-forensics-product/00_README.md) — App 1 Disk/USB/SD/image  
+- [`docs/mobile-forensics-product/`](docs/mobile-forensics-product/00_README.md) — App 2 Android/iOS/IoT  
+
 ---
 
 ## ![NEW](https://img.shields.io/badge/NEW-red) Agentic AI4 Forensics Labs
